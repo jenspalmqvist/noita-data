@@ -65,10 +65,10 @@ if ( varcomp ~= nil ) and ( eatercomp ~= nil ) then
 		end
 	elseif ( state == 8 ) then
 		if ( lcomp ~= nil ) then
-			ComponentObjectSetValue2( lcomp, "laser", "beam_radius", 6.5 )
-			ComponentObjectSetValue2( lcomp, "laser", "damage_to_entities", 0.8 )
-			ComponentObjectSetValue2( lcomp, "laser", "damage_to_cells", 50000 )
-			ComponentObjectSetValue2( lcomp, "laser", "max_cell_durability_to_destroy", 13 )
+			ComponentObjectSetValue2( lcomp, "laser", "beam_radius", 5.5 )
+			ComponentObjectSetValue2( lcomp, "laser", "damage_to_entities", 1.6 )
+			ComponentObjectSetValue2( lcomp, "laser", "damage_to_cells", 700000 )
+			ComponentObjectSetValue2( lcomp, "laser", "max_cell_durability_to_destroy", 14 )
 			ComponentObjectSetValue2( lcomp, "laser", "audio_enabled", true )
 		end
 	elseif ( state == 10 ) then

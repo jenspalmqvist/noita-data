@@ -1,4 +1,4 @@
-<Schema hash="bc8e34976878e0ad545b21cecb274f49" >
+<Schema hash="fa826c898faf944e892e4ca2543e2146" >
   <Component component_name="AIAttackComponent" >
     <Var name="use_probability" size="4" type="int" >
     </Var>
@@ -453,6 +453,14 @@
     <Var name="jump_cam_shake_distance" size="4" type="float" >
     </Var>
     <Var name="eat_anim_wait_mult" size="4" type="float" >
+    </Var>
+    <Var name="projectile_1" size="24" type="class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >" >
+    </Var>
+    <Var name="projectile_1_count" size="4" type="int" >
+    </Var>
+    <Var name="projectile_2" size="24" type="class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >" >
+    </Var>
+    <Var name="projectile_2_count" size="4" type="int" >
     </Var>
     <Var name="ragdoll_filename" size="24" type="class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >" >
     </Var>
@@ -1913,6 +1921,8 @@
     <Var name="suck_health" size="1" type="bool" >
     </Var>
     <Var name="suck_static_materials" size="1" type="bool" >
+    </Var>
+    <Var name="suck_tag" size="24" type="class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >" >
     </Var>
     <Var name="randomized_position" size="16" type="struct types::iaabb" >
     </Var>

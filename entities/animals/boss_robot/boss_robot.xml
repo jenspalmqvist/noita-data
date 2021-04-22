@@ -116,7 +116,8 @@
 			projectile="0"
 			explosion="0"
 			electricity="0.8"
-			fire="0" 
+			fire="0"
+			slice="0.6"
 			>
 		</damage_multipliers>
 	</DamageModelComponent>
