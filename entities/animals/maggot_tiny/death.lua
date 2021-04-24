@@ -11,6 +11,7 @@ function death( damage_type_bit_field, damage_message, entity_thats_responsible,
 	EntityLoad( "data/entities/items/wand_unshuffle_06.xml", pos_x - 16, pos_y )
 	EntityLoad( "data/entities/items/wand_unshuffle_10.xml", pos_x + 16, pos_y )
 	
+	GameAddFlagRun( "miniboss_maggot" )
 	AddFlagPersistent( "miniboss_maggot" )
 	AddFlagPersistent( "card_unlocked_maggot" )
 	

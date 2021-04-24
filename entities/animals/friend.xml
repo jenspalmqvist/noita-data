@@ -161,9 +161,9 @@
 	
 	<SpriteComponent 
 		_tags="health_bar_back,ui,invincible"
-		_enabled="0" 
+		_enabled="1" 
 		transform_offset.x="0"
-		transform_offset.y="-12"
+		transform_offset.y="12"
 		alpha="1" 
 		has_special_scale="1" 
 		image_file="data/ui_gfx/health_slider_back.png" 
@@ -176,7 +176,7 @@
 		special_scale_y="1" 
 		ui_is_parent="0" 
 		update_transform="1" 
-		visible="1" 
+		visible="0" 
 		emissive="1"
 		never_ragdollify_on_death="1"
 		z_index="-9000" >
@@ -184,10 +184,10 @@
 	
 	<SpriteComponent 
 		_tags="health_bar,ui,invincible" 
-		_enabled="0" 
+		_enabled="1" 
 		alpha="1" 
 		transform_offset.x="0"
-		transform_offset.y="-12"
+		transform_offset.y="12"
 		has_special_scale="1" 
 		image_file="data/ui_gfx/health_slider_front.png" 
 		is_text_sprite="0" 
@@ -199,7 +199,7 @@
 		special_scale_y="1" 
 		ui_is_parent="0" 
 		update_transform="1" 
-		visible="1" 
+		visible="0" 
 		emissive="1"
 		never_ragdollify_on_death="1"
 		z_index="-9000" >
@@ -207,6 +207,10 @@
 	
 	<HealthBarComponent>
 	</HealthBarComponent>
+	
+	<VariableStorageComponent
+		_tags="no_gold_drop">
+	</VariableStorageComponent>
 	
 </Entity>
 
